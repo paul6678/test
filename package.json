@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "paul6678"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul6678/test.git"
+  },
+  "author": "Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul6678/test/issues"
+  },
+  "homepage": "https://github.com/paul6678/test#readme",
+  "description": ""
+}
