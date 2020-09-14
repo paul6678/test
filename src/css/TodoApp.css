@@ -1,0 +1,45 @@
+.todoApp {
+  font-family: 'Bitter', serif;
+}
+
+.appTitle {
+  font-size: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: rgba( 0, 0, 0, 0.5 );
+}
+
+.numItems {
+  margin-top: -10px;
+  text-align: right;
+}
+
+.todoListsInput {
+  text-align: center;
+}
+
+.todoList {
+  height: 380px;
+  width: 350px;
+  background-color: rgba( 100, 100, 100, 0.5);
+  float: left;
+  margin: 17px;
+}
+
+.inList {
+  padding-left: 14px;
+}
+
+.material-icons.trashCan {
+  color: #101010;
+  float: right;
+  margin-right: 48px;
+  margin-top: -23px;
+}
+
+.itemsBlock {
+  height: 250px;
+  width: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

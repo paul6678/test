@@ -1,19 +1,33 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://paulhuang.github.io/test/",
+  "dependencies": {
+    "material-design-icons": "^3.0.1",
+    "material-ui": "^0.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "gh-pages": "^0.12.0",
+    "material-ui": "^0.17.1",
+    "react-scripts": "0.9.5",
+    "react-tap-event-plugin": "^2.0.1"
+  },
   "scripts": {
-    "test": "paul6678"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paul6678/test.git"
-  },
-  "author": "Paul",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paul6678/test/issues"
-  },
-  "homepage": "https://github.com/paul6678/test#readme",
-  "description": ""
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
 }
