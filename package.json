@@ -21,6 +21,7 @@
     "react-scripts": "0.9.5",
     "react-tap-event-plugin": "^2.0.1"
   },
+<<<<<<< HEAD
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,4 +31,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
+=======
+  "homepage": "https://paul6678.github.io/test/",
+  "description": ""
+>>>>>>> bf9a421d3e344cccd42d8902a709f47b281e036f
 }
