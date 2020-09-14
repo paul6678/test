@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://paulhuang.github.io/test/",
+  "homepage": "https://paul6678.github.io/test/",
   "dependencies": {
     "material-design-icons": "^3.0.1",
     "material-ui": "^0.17.1",
@@ -31,8 +31,4 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
-=======
-  "homepage": "https://paul6678.github.io/test/",
-  "description": ""
->>>>>>> bf9a421d3e344cccd42d8902a709f47b281e036f
 }
